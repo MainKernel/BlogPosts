@@ -91,10 +91,8 @@ app.delete("/posts/:id", (req, res) => {
   console.log(posts);
   if(index > -1){
     posts.splice(index, 1);
-    console.log(posts);
     res.sendStatus(200);
   } else {
-    console.log(posts);
     res.sendStatus(404);
   }
 });

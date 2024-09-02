@@ -1,0 +1,1 @@
+To start app you need to run server.js and index.js in different terminals;
